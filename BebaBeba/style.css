@@ -1,0 +1,91 @@
+
+#menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+#menu li {
+  margin: 0 10px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  display: block;
+}
+
+#menu a:hover {
+  background-color: #ddd;
+  border-radius: 4px;
+}
+
+.active {
+  color: orangered;
+  font-weight: bold;
+}
+
+  
+  .user-sidebar {
+    position: fixed;
+    right: -300px; /* Adjust this value to the width of the sidebar */
+    top: 50px;
+    width: 300px; /* Adjust this value to the desired width */
+    height: 100%;
+    background-color: rgb(17, 16, 16);
+    box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+    transition: right 0.3s ease-in-out;
+    z-index: 1000; /* Make sure it's above other content */
+    border-radius: 20px;
+}
+
+.user-sidebar.active {
+    right: 0;
+}
+
+.custom-shape-divider-top-1719483927 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+
+}
+
+.custom-shape-divider-top-1719483927 svg {
+  position: relative;
+  display: block;
+  width: calc(256% + 1.3px);
+  height: 186px;
+  /* margin-top: 550px; */
+}
+
+.custom-shape-divider-top-1719483927 .shape-fill {
+  fill: #bd2222;
+}
+
+     /* Second Curve  */
+     .custom-shape-divider-bottom-1719732739 {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+margin-bottom: -330px;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+  }
+  
+  .custom-shape-divider-bottom-1719732739 svg {
+      position: relative;
+      display: block;
+      width: calc(180% + 1.3px);
+      height: 263px;
+      transform: rotateY(180deg);
+  }
+  
+  .custom-shape-divider-bottom-1719732739 .shape-fill {
+      fill:#3d4c74;
+  }
+  
